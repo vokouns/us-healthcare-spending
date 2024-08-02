@@ -16,8 +16,8 @@ For our analysis, we wanted to look at the following three questions:
 
     1. What does total healthcare spending look like from 2002 to 2020 when sorted by Sex, by age group, and lastly by Sex and age group?
     
-    2. What does healthcare spending look like for specific services? We broke out spending for Medicaid, Prescription Drugs, and 
-    
+    2. What is the breakdown of spending per service? What does healthcare spending look like for specific services? We looked closer at spending for Dental Services and on Prescription Drugs.
+
     3. What trends and estimates can we make from total spending by using regression charts?
 
 For all three questions, we used the Age and Sex spending data CSV file provided by the Centers for Medicare and Medicaid Services. 
@@ -28,7 +28,11 @@ To show total spending by Age Group, the original DataFrame was filtered to show
 
 To show total spending per Sex per age group, the original DataFrame was filtered to show total spending for the Payer and Service columns, and then the Age Group and Sex columns were filtered to remove total spending rows only to show the spending per Sex and Age Group. The Payer and Service columns were then removed, and the DataFrame was split into separate female and male spending DataFrames by filtering the Sex column. Once the Female and Male DataFrames were created, the Sex column was removed from each one, the index was set to Age Group, and the DataFrames were transposed in order to plot. Each DataFrame was then used to plot Total Spending for Females/Males by Age Group using Matplotlib.
 
-For question two, 
+For question two, we looked closer at spending for each service category as well as a deeper look at Dental Services and Prescription Drugs. Looking at the chart for Average Spending by Service, Hospital Care is by far the highest spending category on average. Between the years 2002-2020, it averaged almost 37% of all healthcare spending across all payer sources. The next highest category was Physician and Clinical Services, accounting for almost 25% of all spending. Together, the top 3 highest spending categories (adding in Prescription Drugs) averaged $1.6 billion (72.4% of all healthcare spending). 
+
+Dental Services spending shows quite a large change in services per age group. Looking at spending year over year per age group, people in groups 65-84 and 0-18 saw the largest increases in dental spending. Contrary to that, the age group of indiviuals who are 85+ spent not only the least amount of money on Dental Services, but also saw the smallest increase in spending from 2002-2020.
+
+Looking at Prescription Drug spending, we see increases in spending every year, more than doubling in average spending from 2002 to 2020. Spending on prescription drugs per gender appears realatively even. Although female spending is slightly higher per year, the difference is minimal. From 2002-2006 age groups 19-44 and 65-84 had very similar prescription drug spending, then 65-84 started spending more each year, ultimatly spending roughly $35 billion more by the year 2020. The 85+ age group, again, saw the least amount of spending each year.
 
 For question three,
 
