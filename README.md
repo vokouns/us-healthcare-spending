@@ -30,7 +30,8 @@ To show total spending per Sex per age group, the original DataFrame was filtere
 
 For question two, 
 
-For question three,
+For question three, I imported all that was needed to make my linear regression. I opened the data set using age_and_sex.csv, and then I started cleaning my data set to specify what I wanted first. I used the payer column to grab the total spending; then, I took the service column to filter by Total Personal Health Care. The last column I filtered was age group by total. The next step was to make the sex my index for the year, then flip my data set by using the transpose for my health index. Once everything was simplified I defined my linear regression. Once I had my definition completed, I made three linear regression graphs to show the total of male and female healthcare spending, male spending, and female spending. 
+
 
 # Results
 
@@ -44,6 +45,8 @@ What does total healthcare spending look like from 2002 to 2020 when sorted by s
 
     Spending per sex and age group for males follows a similar pattern between age groups, with the 45-64 age group showing the highest expenditure and the 85+ age group the lowest. Unlike health care spending for females, spending for males across age groups does not intertwine over the years; all age groups continuously increase at similar rates. The 65-84 group is showing a spike in 2020, like female spending, but it does not surpass the 45-64 group as female expenditure does.
 
-2. What does healthcare spedning look like for specific services? We broke out spending for Medicaid, Prescription Drugs, and 
+What does healthcare spending look like for specific services? We broke out spending for Medicaid, Prescription Drugs, and 
 
-3. What trends and estimates can we make from total speding by using regression charts?
+What trends and estimates can we make from total speding by using regression charts?
+
+    Noticeable trends we've seen were that female spending is higher than male spending. From 2002 to 2020, the total expenditure increased by $2,001,494 million. For Females, spending increased by $961,128 millions. For males, spending increased by $1,040,366 millions. Between 2002 and 2020, male healthcare spending increased by 79,238 more than that of females. The most significant increase happened in 2020 (COVID), when we saw a rise in healthcare spending by almost two hundred thousand. If the trend continues to increase every two years by the rate, we would be spending an estimated $3,756,975 - $5,802,344 million.
