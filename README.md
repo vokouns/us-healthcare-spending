@@ -1,5 +1,3 @@
-DELETE THIS LATER
-
 # US-Healthcare-Spending
 # Project Overview
 The following project overview focuses on our project proposal, data sources, and data cleanup and analysis.
