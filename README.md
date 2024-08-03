@@ -6,7 +6,7 @@ The following project overview focuses on our project proposal, data sources, an
 We are focusing our research project on national health expenditures. We aim to find patterns in health care spending by a variety of funding sources and national demographics over the course of multiple years. 
 
 # Finding Data
-We will use data provided by the Centers for Medicare & Medicaid Services on their data and research website: https://www.cms.gov/data-research/statistics-trends-and-reports/national-health-expenditure-data. Specifically, we are using national heath expediture data gathered by age and gender. 
+We will use data provided by the Centers for Medicare & Medicaid Services on their data and research website: https://www.cms.gov/data-research/statistics-trends-and-reports/national-health-expenditure-data. Specifically, we are using national health expediture data gathered by age and gender. 
 
 Source: Centers for Medicare and Medicaid Services, Office of the Actuary, National Health Statistics Group
 
