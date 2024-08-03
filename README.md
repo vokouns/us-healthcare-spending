@@ -1,17 +1,17 @@
 # US-Healthcare-Spending
-# Project Overview
+## Project Overview
 The following project overview focuses on our project proposal, data sources, and data cleanup and analysis.
 
-# Project Proposal
+## Project Proposal
 We are focusing our research project on national health expenditures. We aim to find patterns in health care spending by a variety of funding sources and national demographics over the course of multiple years. 
 
-# Finding Data
+## Finding Data
 We will use data provided by the Centers for Medicare & Medicaid Services on their data and research website: https://www.cms.gov/data-research/statistics-trends-and-reports/national-health-expenditure-data. Specifically, we are using national health expenditure data gathered by age and gender. 
 
 Source: Centers for Medicare and Medicaid Services, Office of the Actuary, National Health Statistics Group
 
 
-# Data Cleanup and Analysis
+## Data Cleanup and Analysis
 For our analysis, we wanted to look at the following three questions:
 
 1. What does total healthcare spending look like from 2002 to 2020 when sorted by Sex, by age group, and lastly by Sex and age group?
@@ -34,7 +34,7 @@ For question three, we imported all that was needed to make my linear regression
 
 Finally, we managed our project flow utilizing GitHub and branching to manage each question. We merged branches as each question was fully answered and merged each Jupyter Notebook into a master notebook. We tested the results, making sure that each merge was free from bugs and able to save our charts into the master "Figures" folder. 
 
-# Results
+## Results
 
 **What does total healthcare spending look like from 2002 to 2020 when sorted by sex, by age group, and lastly by sex and age group?**
 
